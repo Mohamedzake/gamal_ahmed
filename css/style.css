@@ -109,11 +109,6 @@
   padding: 4.8rem 0 9.6rem 0;
 } */
 .section-hero {
-  background: url("/hero2.jpg") center/cover no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/hero2.jpg") center/cover no-repeat;
-  background: linear-gradient(rgba(31, 20, 20, 0.1), rgba(1, 77, 124, 0.3)),
-    url("/hero2.jpg") center/cover no-repeat;
   background: linear-gradient(rgba(31, 20, 20, 0.1), rgba(226, 72, 72, 0.3)),
     url("/hero2.jpg") center/cover no-repeat;
   color: #fff;
@@ -166,11 +161,27 @@
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+  /* color: #f0f0f0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); */
 }
 
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+/* heading-primary {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+} */
+
+.hero-description {
+  font-weight: bold;
+  color: #f0f0f0;
+  /* color: rgb(5, 109, 228); */
+  /* color: rgb(255, 247, 0); */
+  /* color: rgb(68, 255, 0); */
+  /* font-size: 20px; */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
 /**************************/
