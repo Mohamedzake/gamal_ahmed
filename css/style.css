@@ -666,8 +666,8 @@
 }
 
 .social-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 3.4rem;
+  width: 3.4rem;
 }
 
 .copyright {
@@ -707,6 +707,7 @@
   font-size: 1.6rem;
   color: #767676;
   color: #fdf2e9;
+  /* color: #cf711f; */
   transition: all 0.3s;
 }
 
@@ -717,4 +718,18 @@
 .span--1 {
   font-weight: 700;
   color: #51cf66;
+}
+.footer-link_1:link,
+.footer-link_1:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  color: #fdf2e9;
+  color: #cf711f;
+  transition: all 0.3s;
+}
+
+.footer-link_1:hover,
+.footer-link_1:active {
+  color: #555;
 }
