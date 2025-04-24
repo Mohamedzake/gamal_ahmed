@@ -108,9 +108,16 @@
   color: #fff;
   padding: 4.8rem 0 9.6rem 0;
 } */
+/* .section-hero {
+  background: linear-gradient(rgba(31, 20, 20, 0.1), rgba(226, 72, 72, 0.3)),
+    url("/hero2.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 4.8rem 0 9.6rem 0;
+} */
 .section-hero {
   background: linear-gradient(rgba(31, 20, 20, 0.1), rgba(226, 72, 72, 0.3)),
     url("/hero2.jpg") center/cover no-repeat;
+  background-color: #1f1414; /* fallback while image loads */
   color: #fff;
   padding: 4.8rem 0 9.6rem 0;
 }
